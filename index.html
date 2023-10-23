@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>  
+    <link rel="stylesheet" href="style.css">
+    <title class="">Météo</title>
+</head>
+<body class="bg-dark">
+   
+<form method="post" id="formCity">
+    <div class="form-group mt-5 tooltip-inner">
+
+        <div class="card text-bg-dark">
+            <img src="img/pexels-eberhard-grossgasteiger-448714.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h1 class="card-title city mt-xxl-5 link-success fw-bold" id="city"></h1>
+              <div><img class="iconn m-5" src="" alt="" id="icon">
+              </div>
+              <p class="card-text mt-5 fa-xl fw-bold"><span id="min"></span></p>
+              <p class="card-text mt-5 fa-xl fw-bold"><span id="real"></span></p>
+              <p class="card-text mt-5 fa-xl fw-bold link-warning"><span id="max"></span></p>
+              <div class="form-group link-success fw-bold mt-lg-5 ">
+                <label class=" m-1 fst-italic fs-4" for="firstname">City :</label>
+                <input type="text" class=" border-success-subtle border-3 mt-3" id="ville" name="ville" placeholder="ville" >
+                <button  class="btn btn-success fw-bolder">localiser</button>
+            </div>
+            </div>
+
+          </div>
+
+
+
+      
+        
+           
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script src="index.js"></script>   
+
+</body>
+</html>
